@@ -25,7 +25,7 @@ public class ReusablePoolTest {
 	/**
 	 * @throws java.lang.Exception
 	 */
-	@Before
+	@Before 
 	public void setUp() throws Exception {
 		pool = ReusablePool.getInstance();
 	}
